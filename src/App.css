@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #95f9f9; 
+  }
+  
+  .canvas-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .canvas-container {
+    position: relative;
+    background-color: #1d1d1d; 
+    width: 600px; 
+    height: 600px; 
+    margin: 10px; /* Adjust margin between canvas containers */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  canvas {
+    display: block;
+  }
+  
+  .model-title {
+    position: absolute;
+    bottom: 10px; 
+    color: white; 
+    z-index: 10;
+  }
+  
+
+h1 {
+    text-align: center;
+    color: black;
+}
